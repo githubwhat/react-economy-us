@@ -24,7 +24,7 @@ concurrency:
 
 jobs:
   update:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04 # ubuntu-latest는 2026-11 Ubuntu 26.04로 자동 전환되므로 고정
     timeout-minutes: 40
     env:
       FTP_HOST: ${{ secrets.FTP_HOST }}
@@ -32,6 +32,7 @@ jobs:
       FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
       FTP_REMOTE_DIR: ${{ secrets.FTP_REMOTE_DIR }}
       SITE_URL: ${{ vars.SITE_URL }}
+      FTP_VERBOSE: ${{ vars.FTP_VERBOSE }}
     steps:
       - uses: actions/checkout@v4
 

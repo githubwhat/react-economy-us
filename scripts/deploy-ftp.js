@@ -18,6 +18,7 @@ const dryRun = process.argv.includes('--dry-run');
 
 const env = {
   host: process.env.FTP_HOST,
+  port: Number(process.env.FTP_PORT || 21),
   user: process.env.FTP_USER,
   password: process.env.FTP_PASSWORD,
   remoteDir: (process.env.FTP_REMOTE_DIR || '/htdocs').replace(/\/+$/, ''),
@@ -49,9 +50,11 @@ async function connect() {
   let lastErr;
   for (const secure of modes) {
     const client = new Client(60000);
+    client.ftp.verbose = process.env.FTP_VERBOSE === 'true'; // 문제 진단용 FTP 명령 로그 (비밀번호는 Actions가 가림)
     try {
       await client.access({
         host: env.host,
+        port: env.port,
         user: env.user,
         password: env.password,
         secure,
@@ -68,10 +71,20 @@ async function connect() {
   throw lastErr;
 }
 
+// InfinityFree FTP는 전체 경로 STOR를 거부하는 경우가 있어(553 Is a directory)
+// 항상 대상 폴더로 이동(ensureDir)한 뒤 파일 이름만으로 전송·확인·삭제한다.
+async function put(c, rel, source) {
+  await c.ensureDir(path.posix.join(env.remoteDir, path.posix.dirname(rel)));
+  const name = path.posix.basename(rel);
+  await c.uploadFrom(source, name);
+  return name;
+}
+
 async function readRemoteManifest(client) {
   const chunks = [];
   try {
-    await client.downloadTo(new Writable({ write(c, _e, cb) { chunks.push(c); cb(); } }), `${env.remoteDir}/${MANIFEST}`);
+    await client.cd(env.remoteDir);
+    await client.downloadTo(new Writable({ write(c, _e, cb) { chunks.push(c); cb(); } }), MANIFEST);
     return JSON.parse(Buffer.concat(chunks).toString('utf8')).files || {};
   } catch {
     return {}; // 첫 배포
@@ -114,12 +127,10 @@ async function main() {
 
   let bytes = 0;
   for (const rel of changed) {
-    const remotePath = `${env.remoteDir}/${rel}`;
     await withRetry(rel, async (c) => {
-      await c.ensureDir(path.posix.dirname(remotePath));
-      await c.uploadFrom(path.join(DIST, rel), remotePath);
+      const name = await put(c, rel, path.join(DIST, rel));
       // 업로드 확인: 원격 크기 비교
-      const size = await c.size(remotePath);
+      const size = await c.size(name);
       if (size !== local[rel].size) throw new Error(`크기 불일치 ${size} ≠ ${local[rel].size}`);
     }, client);
     bytes += local[rel].size;
@@ -127,12 +138,13 @@ async function main() {
 
   // 모든 파일이 정상 업로드된 뒤에만 manifest 갱신
   const manifest = JSON.stringify({ deployedAt: new Date().toISOString(), files: local });
-  await withRetry(MANIFEST, (c) => c.uploadFrom(Readable.from([manifest]), `${env.remoteDir}/${MANIFEST}`), client);
+  await withRetry(MANIFEST, (c) => put(c, MANIFEST, Readable.from([manifest])), client);
 
   // 새 index.html이 더 이상 참조하지 않는 옛 파일 정리 (실패해도 사이트에는 영향 없음)
   for (const rel of stale) {
     try {
-      await client.current.remove(`${env.remoteDir}/${rel}`);
+      await client.current.cd(path.posix.join(env.remoteDir, path.posix.dirname(rel)));
+      await client.current.remove(path.posix.basename(rel));
     } catch (err) {
       console.log(`  삭제 생략 ${rel}: ${err.message}`);
     }
