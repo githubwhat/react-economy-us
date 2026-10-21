@@ -1,5 +1,10 @@
 [
   {
+    "at": "2026-10-21T10:28:53.774Z",
+    "ok": false,
+    "error": "assets/index-BRyUaQet.js: 553 Can't open that file: Is a directory"
+  },
+  {
     "at": "2026-10-21T10:24:31.688Z",
     "ok": false,
     "error": "assets/index-BRyUaQet.js: 553 Can't open that file: Is a directory"
