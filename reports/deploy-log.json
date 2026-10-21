@@ -1,5 +1,14 @@
 [
   {
+    "at": "2026-10-21T10:35:20.487Z",
+    "ok": true,
+    "uploaded": 80,
+    "removed": 0,
+    "bytes": 5285919,
+    "ms": 147904,
+    "siteCheck": "확인 불가: HTML 응답(호스팅 보안 페이지 가능) HTTP 200"
+  },
+  {
     "at": "2026-10-21T10:28:53.774Z",
     "ok": false,
     "error": "assets/index-BRyUaQet.js: 553 Can't open that file: Is a directory"
