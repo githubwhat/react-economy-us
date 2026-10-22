@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-10-21T21:40:28.881Z",
+  "checkedAt": "2026-10-22T21:33:07.632Z",
   "results": {
     "treasury": {
       "ok": true,
       "sample": {
         "label": "10년 금리",
-        "date": "2026-10-21",
-        "value": 5.13
+        "date": "2026-10-22",
+        "value": 4.96
       },
-      "ms": 1042,
+      "ms": 362,
       "registration": false
     },
     "nyfed": {
       "ok": true,
       "sample": {
         "label": "SOFR",
-        "date": "2026-10-20",
+        "date": "2026-10-21",
         "value": 3.88
       },
-      "ms": 516,
+      "ms": 302,
       "registration": false
     },
     "bls": {
@@ -28,17 +28,17 @@
         "date": "2026-09-01",
         "value": 4.2
       },
-      "ms": 278,
+      "ms": 364,
       "registration": false
     },
     "dol": {
       "ok": true,
       "sample": {
         "label": "신규 실업수당 청구",
-        "date": "2026-09-19",
-        "value": 198000
+        "date": "2026-09-26",
+        "value": 199000
       },
-      "ms": 310,
+      "ms": 283,
       "registration": false
     },
     "fed": {
@@ -48,7 +48,7 @@
         "date": "2026-07-01",
         "value": 0
       },
-      "ms": 559,
+      "ms": 214,
       "registration": false
     },
     "census": {
@@ -58,17 +58,17 @@
         "date": "2026-08-01",
         "value": -105572
       },
-      "ms": 558,
+      "ms": 285,
       "registration": false
     },
     "fiscal": {
       "ok": true,
       "sample": {
         "label": "총부채",
-        "date": "2026-10-20",
-        "value": 40439546016039.08
+        "date": "2026-10-21",
+        "value": 40413639012305.97
       },
-      "ms": 564,
+      "ms": 486,
       "registration": false
     },
     "eia": {
@@ -78,7 +78,7 @@
         "date": "2026-10-20",
         "value": 3.1
       },
-      "ms": 490,
+      "ms": 203,
       "registration": false
     },
     "nber": {
@@ -88,7 +88,7 @@
         "date": "2026-10-01",
         "value": 0
       },
-      "ms": 732,
+      "ms": 488,
       "registration": false
     }
   }
