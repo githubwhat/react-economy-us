@@ -1,5 +1,172 @@
 [
   {
+    "startedAt": "2026-10-24T20:45:42.687Z",
+    "sources": {
+      "nyfed": {
+        "ok": 5,
+        "failed": 0,
+        "changedObs": 0,
+        "full": false,
+        "ms": 1599,
+        "errors": []
+      },
+      "treasury": {
+        "ok": 7,
+        "failed": 0,
+        "changedObs": 0,
+        "full": false,
+        "ms": 1272,
+        "errors": []
+      },
+      "treasury-real": {
+        "ok": 3,
+        "failed": 0,
+        "changedObs": 0,
+        "full": false,
+        "ms": 1010,
+        "errors": []
+      },
+      "bls": {
+        "ok": 0,
+        "failed": 16,
+        "changedObs": 0,
+        "full": false,
+        "ms": 6410,
+        "errors": [
+          "HTTP 503 https://api.bls.gov/publicAPI/v1/timeseries/data/"
+        ]
+      },
+      "dol": {
+        "ok": 2,
+        "failed": 0,
+        "changedObs": 0,
+        "full": false,
+        "ms": 141,
+        "errors": []
+      },
+      "fed": {
+        "ok": 14,
+        "failed": 0,
+        "changedObs": 0,
+        "full": false,
+        "ms": 7900,
+        "errors": []
+      },
+      "census": {
+        "ok": 6,
+        "failed": 0,
+        "changedObs": 0,
+        "full": false,
+        "ms": 5119,
+        "errors": []
+      },
+      "nber": {
+        "ok": 1,
+        "failed": 0,
+        "changedObs": 0,
+        "full": false,
+        "ms": 363,
+        "errors": []
+      },
+      "eia": {
+        "ok": 3,
+        "failed": 0,
+        "changedObs": 0,
+        "full": false,
+        "ms": 2728,
+        "errors": []
+      },
+      "fiscal": {
+        "ok": 2,
+        "failed": 0,
+        "changedObs": 0,
+        "full": false,
+        "ms": 1031,
+        "errors": []
+      },
+      "derived": {
+        "ok": 5,
+        "failed": 1
+      }
+    },
+    "indicators": {
+      "dff": true,
+      "dfedtaru": true,
+      "dfedtarl": true,
+      "sofr": true,
+      "rrpontsyd": true,
+      "dgs3mo": true,
+      "dgs6mo": true,
+      "dgs1": true,
+      "dgs2": true,
+      "dgs5": true,
+      "dgs10": true,
+      "dgs30": true,
+      "dfii5": true,
+      "dfii10": true,
+      "dfii30": true,
+      "cpiaucsl": false,
+      "cpilfesl": false,
+      "ppifis": false,
+      "ppiaco": false,
+      "eciallciv": false,
+      "payems": false,
+      "unrate": false,
+      "u6rate": false,
+      "civpart": false,
+      "emratio": false,
+      "jtsjol": false,
+      "jtshir": false,
+      "jtsqur": false,
+      "jtsldl": false,
+      "ces0500000003": false,
+      "awhaetp": false,
+      "icsa": true,
+      "ccsa": true,
+      "indpro": true,
+      "tcu": true,
+      "drtscilm": true,
+      "walcl": true,
+      "m2sl": true,
+      "bogmbase": true,
+      "wresbal": true,
+      "wtregen": true,
+      "busloans": true,
+      "totalsl": true,
+      "dtwexbgs": true,
+      "dexuseu": true,
+      "dexjpus": true,
+      "dexkous": true,
+      "rsafs": true,
+      "dgorder": true,
+      "houst": true,
+      "permit": true,
+      "hsn1f": true,
+      "bopgstb": true,
+      "usrec": true,
+      "dcoilwtico": true,
+      "dcoilbrenteu": true,
+      "dhhngsp": true,
+      "gfdebtn": true,
+      "fyfsd": true,
+      "t10y2y": true,
+      "t10y3m": true,
+      "t5yie": true,
+      "t10yie": true,
+      "t5yifr": true,
+      "rrsfs": false
+    },
+    "finishedAt": "2026-10-24T20:46:10.767Z",
+    "ms": 28079,
+    "implemented": 65,
+    "tally": {
+      "normal": 37,
+      "caution": 7,
+      "danger": 2,
+      "unknown": 19
+    }
+  },
+  {
     "startedAt": "2026-10-23T21:22:24.226Z",
     "sources": {
       "nyfed": {

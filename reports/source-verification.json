@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-23T21:22:24.036Z",
+  "checkedAt": "2026-10-24T20:45:42.159Z",
   "results": {
     "treasury": {
       "ok": true,
@@ -8,7 +8,7 @@
         "date": "2026-10-23",
         "value": 5
       },
-      "ms": 515,
+      "ms": 377,
       "registration": false
     },
     "nyfed": {
@@ -18,18 +18,13 @@
         "date": "2026-10-22",
         "value": 3.9
       },
-      "ms": 301,
+      "ms": 775,
       "registration": false
     },
     "bls": {
-      "ok": true,
-      "sample": {
-        "label": "실업률",
-        "date": "2026-09-01",
-        "value": 4.2
-      },
-      "ms": 485,
-      "registration": false
+      "ok": false,
+      "error": "HTTP 503 https://api.bls.gov/publicAPI/v1/timeseries/data/LNS14000000",
+      "ms": 6773
     },
     "dol": {
       "ok": true,
@@ -38,7 +33,7 @@
         "date": "2026-09-26",
         "value": 199000
       },
-      "ms": 334,
+      "ms": 103,
       "registration": false
     },
     "fed": {
@@ -48,7 +43,7 @@
         "date": "2026-07-01",
         "value": 0
       },
-      "ms": 302,
+      "ms": 179,
       "registration": false
     },
     "census": {
@@ -58,7 +53,7 @@
         "date": "2026-08-01",
         "value": -105572
       },
-      "ms": 439,
+      "ms": 79,
       "registration": false
     },
     "fiscal": {
@@ -68,7 +63,7 @@
         "date": "2026-10-22",
         "value": 40444342709389.15
       },
-      "ms": 534,
+      "ms": 358,
       "registration": false
     },
     "eia": {
@@ -78,7 +73,7 @@
         "date": "2026-10-20",
         "value": 3.1
       },
-      "ms": 306,
+      "ms": 191,
       "registration": false
     },
     "nber": {
@@ -88,7 +83,7 @@
         "date": "2026-10-01",
         "value": 0
       },
-      "ms": 599,
+      "ms": 638,
       "registration": false
     }
   }
