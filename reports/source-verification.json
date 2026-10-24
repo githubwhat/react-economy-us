@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-24T20:45:42.159Z",
+  "checkedAt": "2026-10-24T23:21:49.582Z",
   "results": {
     "treasury": {
       "ok": true,
@@ -8,7 +8,7 @@
         "date": "2026-10-23",
         "value": 5
       },
-      "ms": 377,
+      "ms": 692,
       "registration": false
     },
     "nyfed": {
@@ -18,13 +18,13 @@
         "date": "2026-10-22",
         "value": 3.9
       },
-      "ms": 775,
+      "ms": 322,
       "registration": false
     },
     "bls": {
       "ok": false,
       "error": "HTTP 503 https://api.bls.gov/publicAPI/v1/timeseries/data/LNS14000000",
-      "ms": 6773
+      "ms": 8690
     },
     "dol": {
       "ok": true,
@@ -33,7 +33,7 @@
         "date": "2026-09-26",
         "value": 199000
       },
-      "ms": 103,
+      "ms": 290,
       "registration": false
     },
     "fed": {
@@ -43,7 +43,7 @@
         "date": "2026-07-01",
         "value": 0
       },
-      "ms": 179,
+      "ms": 249,
       "registration": false
     },
     "census": {
@@ -53,7 +53,7 @@
         "date": "2026-08-01",
         "value": -105572
       },
-      "ms": 79,
+      "ms": 294,
       "registration": false
     },
     "fiscal": {
@@ -63,7 +63,7 @@
         "date": "2026-10-22",
         "value": 40444342709389.15
       },
-      "ms": 358,
+      "ms": 456,
       "registration": false
     },
     "eia": {
@@ -73,7 +73,7 @@
         "date": "2026-10-20",
         "value": 3.1
       },
-      "ms": 191,
+      "ms": 313,
       "registration": false
     },
     "nber": {
@@ -83,7 +83,7 @@
         "date": "2026-10-01",
         "value": 0
       },
-      "ms": 638,
+      "ms": 721,
       "registration": false
     }
   }
