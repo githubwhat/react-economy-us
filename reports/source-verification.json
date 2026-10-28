@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-10-27T22:10:53.298Z",
+  "checkedAt": "2026-10-28T22:32:17.752Z",
   "results": {
     "treasury": {
       "ok": true,
       "sample": {
         "label": "10년 금리",
-        "date": "2026-10-27",
-        "value": 4.99
+        "date": "2026-10-28",
+        "value": 5.05
       },
-      "ms": 416,
+      "ms": 434,
       "registration": false
     },
     "nyfed": {
       "ok": true,
       "sample": {
         "label": "SOFR",
-        "date": "2026-10-26",
-        "value": 3.93
+        "date": "2026-10-27",
+        "value": 3.95
       },
-      "ms": 493,
+      "ms": 337,
       "registration": false
     },
     "bls": {
@@ -28,7 +28,7 @@
         "date": "2026-09-01",
         "value": 4.2
       },
-      "ms": 515,
+      "ms": 196,
       "registration": false
     },
     "dol": {
@@ -38,7 +38,7 @@
         "date": "2026-09-26",
         "value": 199000
       },
-      "ms": 257,
+      "ms": 164,
       "registration": false
     },
     "fed": {
@@ -48,7 +48,7 @@
         "date": "2026-07-01",
         "value": 0
       },
-      "ms": 250,
+      "ms": 183,
       "registration": false
     },
     "census": {
@@ -58,27 +58,27 @@
         "date": "2026-08-01",
         "value": -105572
       },
-      "ms": 160,
+      "ms": 176,
       "registration": false
     },
     "fiscal": {
       "ok": true,
       "sample": {
         "label": "총부채",
-        "date": "2026-10-26",
-        "value": 40528358939415.85
+        "date": "2026-10-27",
+        "value": 40582274254843.57
       },
-      "ms": 488,
+      "ms": 391,
       "registration": false
     },
     "eia": {
       "ok": true,
       "sample": {
         "label": "헨리허브 가스",
-        "date": "2026-10-20",
-        "value": 3.1
+        "date": "2026-10-27",
+        "value": 2.76
       },
-      "ms": 210,
+      "ms": 208,
       "registration": false
     },
     "nber": {
@@ -88,7 +88,7 @@
         "date": "2026-10-01",
         "value": 0
       },
-      "ms": 599,
+      "ms": 445,
       "registration": false
     }
   }
