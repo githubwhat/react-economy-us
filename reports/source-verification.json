@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-10-28T22:32:17.752Z",
+  "checkedAt": "2026-10-29T22:43:52.959Z",
   "results": {
     "treasury": {
       "ok": true,
       "sample": {
         "label": "10년 금리",
-        "date": "2026-10-28",
-        "value": 5.05
+        "date": "2026-10-29",
+        "value": 4.98
       },
-      "ms": 434,
+      "ms": 565,
       "registration": false
     },
     "nyfed": {
       "ok": true,
       "sample": {
         "label": "SOFR",
-        "date": "2026-10-27",
-        "value": 3.95
+        "date": "2026-10-28",
+        "value": 3.94
       },
-      "ms": 337,
+      "ms": 466,
       "registration": false
     },
     "bls": {
@@ -28,17 +28,17 @@
         "date": "2026-09-01",
         "value": 4.2
       },
-      "ms": 196,
+      "ms": 303,
       "registration": false
     },
     "dol": {
       "ok": true,
       "sample": {
         "label": "신규 실업수당 청구",
-        "date": "2026-09-26",
-        "value": 199000
+        "date": "2026-10-03",
+        "value": 198000
       },
-      "ms": 164,
+      "ms": 361,
       "registration": false
     },
     "fed": {
@@ -48,7 +48,7 @@
         "date": "2026-07-01",
         "value": 0
       },
-      "ms": 183,
+      "ms": 1448,
       "registration": false
     },
     "census": {
@@ -58,17 +58,17 @@
         "date": "2026-08-01",
         "value": -105572
       },
-      "ms": 176,
+      "ms": 137,
       "registration": false
     },
     "fiscal": {
       "ok": true,
       "sample": {
         "label": "총부채",
-        "date": "2026-10-27",
-        "value": 40582274254843.57
+        "date": "2026-10-28",
+        "value": 40551054852362.41
       },
-      "ms": 391,
+      "ms": 519,
       "registration": false
     },
     "eia": {
@@ -78,7 +78,7 @@
         "date": "2026-10-27",
         "value": 2.76
       },
-      "ms": 208,
+      "ms": 193,
       "registration": false
     },
     "nber": {
@@ -88,7 +88,7 @@
         "date": "2026-10-01",
         "value": 0
       },
-      "ms": 445,
+      "ms": 32708,
       "registration": false
     }
   }
