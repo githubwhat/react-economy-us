@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-11-02T00:50:34.512Z",
+  "checkedAt": "2026-11-03T00:55:50.428Z",
   "results": {
     "treasury": {
       "ok": true,
       "sample": {
         "label": "10년 금리",
-        "date": "2026-10-30",
-        "value": 4.94
+        "date": "2026-11-02",
+        "value": 4.91
       },
-      "ms": 559,
+      "ms": 341,
       "registration": false
     },
     "nyfed": {
       "ok": true,
       "sample": {
         "label": "SOFR",
-        "date": "2026-10-29",
-        "value": 3.94
+        "date": "2026-10-30",
+        "value": 3.95
       },
-      "ms": 349,
+      "ms": 158,
       "registration": false
     },
     "bls": {
@@ -28,22 +28,22 @@
         "date": "2026-09-01",
         "value": 4.2
       },
-      "ms": 397,
+      "ms": 138,
       "registration": false
     },
     "dol": {
       "ok": false,
       "error": "Cannot read properties of undefined (reading '0')",
-      "ms": 309
+      "ms": 111
     },
     "fed": {
       "ok": true,
       "sample": {
         "label": "SLOOS 대출심사",
-        "date": "2026-07-01",
-        "value": 0
+        "date": "2026-10-01",
+        "value": 1.7
       },
-      "ms": 286,
+      "ms": 163,
       "registration": false
     },
     "census": {
@@ -53,7 +53,7 @@
         "date": "2026-08-01",
         "value": -105572
       },
-      "ms": 131,
+      "ms": 88,
       "registration": false
     },
     "fiscal": {
@@ -63,7 +63,7 @@
         "date": "2026-10-29",
         "value": 40593637262883.48
       },
-      "ms": 621,
+      "ms": 353,
       "registration": false
     },
     "eia": {
@@ -73,7 +73,7 @@
         "date": "2026-10-27",
         "value": 2.76
       },
-      "ms": 187,
+      "ms": 109,
       "registration": false
     },
     "nber": {
@@ -83,7 +83,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 512,
+      "ms": 275,
       "registration": false
     }
   }
