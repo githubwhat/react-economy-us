@@ -1,34 +1,29 @@
 {
-  "checkedAt": "2026-11-05T23:37:03.630Z",
+  "checkedAt": "2026-11-06T23:06:02.438Z",
   "results": {
     "treasury": {
       "ok": true,
       "sample": {
         "label": "10년 금리",
-        "date": "2026-11-05",
-        "value": 4.84
+        "date": "2026-11-06",
+        "value": 4.86
       },
-      "ms": 379,
+      "ms": 705,
       "registration": false
     },
     "nyfed": {
-      "ok": true,
-      "sample": {
-        "label": "SOFR",
-        "date": "2026-11-04",
-        "value": 3.94
-      },
-      "ms": 261,
-      "registration": false
+      "ok": false,
+      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
+      "ms": 6647
     },
     "bls": {
       "ok": true,
       "sample": {
         "label": "실업률",
-        "date": "2026-09-01",
-        "value": 4.2
+        "date": "2026-10-01",
+        "value": 4.1
       },
-      "ms": 369,
+      "ms": 297,
       "registration": false
     },
     "dol": {
@@ -38,7 +33,7 @@
         "date": "2026-10-10",
         "value": 200000
       },
-      "ms": 253,
+      "ms": 387,
       "registration": false
     },
     "fed": {
@@ -48,7 +43,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 225,
+      "ms": 285,
       "registration": false
     },
     "census": {
@@ -58,17 +53,17 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 202,
+      "ms": 147,
       "registration": false
     },
     "fiscal": {
       "ok": true,
       "sample": {
         "label": "총부채",
-        "date": "2026-11-04",
-        "value": 40550230047609.15
+        "date": "2026-11-05",
+        "value": 40556120784983.65
       },
-      "ms": 489,
+      "ms": 565,
       "registration": false
     },
     "eia": {
@@ -78,7 +73,7 @@
         "date": "2026-11-03",
         "value": 2.63
       },
-      "ms": 128,
+      "ms": 326,
       "registration": false
     },
     "nber": {
@@ -88,7 +83,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 477,
+      "ms": 966,
       "registration": false
     }
   }
