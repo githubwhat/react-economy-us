@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-07T00:58:23.134Z",
+  "checkedAt": "2026-11-07T21:46:50.195Z",
   "results": {
     "treasury": {
       "ok": true,
@@ -8,13 +8,18 @@
         "date": "2026-11-06",
         "value": 4.86
       },
-      "ms": 316,
+      "ms": 303,
       "registration": false
     },
     "nyfed": {
-      "ok": false,
-      "error": "Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON",
-      "ms": 6820
+      "ok": true,
+      "sample": {
+        "label": "SOFR",
+        "date": "2026-11-05",
+        "value": 3.92
+      },
+      "ms": 47,
+      "registration": false
     },
     "bls": {
       "ok": true,
@@ -23,7 +28,7 @@
         "date": "2026-10-01",
         "value": 4.1
       },
-      "ms": 227,
+      "ms": 129,
       "registration": false
     },
     "dol": {
@@ -33,7 +38,7 @@
         "date": "2026-10-10",
         "value": 200000
       },
-      "ms": 291,
+      "ms": 77,
       "registration": false
     },
     "fed": {
@@ -43,7 +48,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 225,
+      "ms": 172,
       "registration": false
     },
     "census": {
@@ -53,7 +58,7 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 212,
+      "ms": 111,
       "registration": false
     },
     "fiscal": {
@@ -63,7 +68,7 @@
         "date": "2026-11-05",
         "value": 40556120784983.65
       },
-      "ms": 492,
+      "ms": 345,
       "registration": false
     },
     "eia": {
@@ -73,7 +78,7 @@
         "date": "2026-11-03",
         "value": 2.63
       },
-      "ms": 212,
+      "ms": 258,
       "registration": false
     },
     "nber": {
@@ -83,7 +88,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 739,
+      "ms": 294,
       "registration": false
     }
   }
