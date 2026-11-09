@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-08T22:00:08.337Z",
+  "checkedAt": "2026-11-09T00:59:00.815Z",
   "results": {
     "treasury": {
       "ok": true,
@@ -8,7 +8,7 @@
         "date": "2026-11-06",
         "value": 4.86
       },
-      "ms": 523,
+      "ms": 642,
       "registration": false
     },
     "nyfed": {
@@ -18,7 +18,7 @@
         "date": "2026-11-05",
         "value": 3.92
       },
-      "ms": 269,
+      "ms": 287,
       "registration": false
     },
     "bls": {
@@ -28,18 +28,13 @@
         "date": "2026-10-01",
         "value": 4.1
       },
-      "ms": 676,
+      "ms": 434,
       "registration": false
     },
     "dol": {
-      "ok": true,
-      "sample": {
-        "label": "신규 실업수당 청구",
-        "date": "2026-10-10",
-        "value": 200000
-      },
-      "ms": 354,
-      "registration": false
+      "ok": false,
+      "error": "Cannot read properties of undefined (reading '0')",
+      "ms": 170
     },
     "fed": {
       "ok": true,
@@ -48,7 +43,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 275,
+      "ms": 206,
       "registration": false
     },
     "census": {
@@ -58,7 +53,7 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 146,
+      "ms": 127,
       "registration": false
     },
     "fiscal": {
@@ -68,7 +63,7 @@
         "date": "2026-11-05",
         "value": 40556120784983.65
       },
-      "ms": 3422,
+      "ms": 450,
       "registration": false
     },
     "eia": {
@@ -78,7 +73,7 @@
         "date": "2026-11-03",
         "value": 2.63
       },
-      "ms": 253,
+      "ms": 251,
       "registration": false
     },
     "nber": {
@@ -88,7 +83,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 459,
+      "ms": 623,
       "registration": false
     }
   }
