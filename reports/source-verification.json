@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-10T01:29:32.774Z",
+  "checkedAt": "2026-11-10T03:38:14.383Z",
   "results": {
     "treasury": {
       "ok": true,
@@ -8,7 +8,7 @@
         "date": "2026-11-09",
         "value": 4.88
       },
-      "ms": 515,
+      "ms": 322,
       "registration": false
     },
     "nyfed": {
@@ -18,7 +18,7 @@
         "date": "2026-11-06",
         "value": 3.89
       },
-      "ms": 349,
+      "ms": 401,
       "registration": false
     },
     "bls": {
@@ -28,13 +28,13 @@
         "date": "2026-10-01",
         "value": 4.1
       },
-      "ms": 275,
+      "ms": 209,
       "registration": false
     },
     "dol": {
       "ok": false,
       "error": "Cannot read properties of undefined (reading '0')",
-      "ms": 203
+      "ms": 113
     },
     "fed": {
       "ok": true,
@@ -43,7 +43,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 291,
+      "ms": 170,
       "registration": false
     },
     "census": {
@@ -53,7 +53,7 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 273,
+      "ms": 82,
       "registration": false
     },
     "fiscal": {
@@ -63,7 +63,7 @@
         "date": "2026-11-06",
         "value": 40552751019092.61
       },
-      "ms": 525,
+      "ms": 459,
       "registration": false
     },
     "eia": {
@@ -73,7 +73,7 @@
         "date": "2026-11-03",
         "value": 2.63
       },
-      "ms": 320,
+      "ms": 82,
       "registration": false
     },
     "nber": {
@@ -83,7 +83,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 847,
+      "ms": 830,
       "registration": false
     }
   }
