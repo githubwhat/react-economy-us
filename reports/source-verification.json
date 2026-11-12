@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-11-12T00:38:59.518Z",
+  "checkedAt": "2026-11-12T23:35:34.900Z",
   "results": {
     "treasury": {
       "ok": true,
       "sample": {
         "label": "10년 금리",
-        "date": "2026-11-10",
-        "value": 4.98
+        "date": "2026-11-12",
+        "value": 5.1
       },
-      "ms": 424,
+      "ms": 249,
       "registration": false
     },
     "nyfed": {
       "ok": true,
       "sample": {
         "label": "SOFR",
-        "date": "2026-11-09",
-        "value": 3.88
+        "date": "2026-11-10",
+        "value": 3.89
       },
-      "ms": 472,
+      "ms": 161,
       "registration": false
     },
     "bls": {
@@ -28,17 +28,17 @@
         "date": "2026-10-01",
         "value": 4.1
       },
-      "ms": 307,
+      "ms": 97,
       "registration": false
     },
     "dol": {
       "ok": true,
       "sample": {
         "label": "신규 실업수당 청구",
-        "date": "2026-10-10",
-        "value": 200000
+        "date": "2026-10-17",
+        "value": 195000
       },
-      "ms": 238,
+      "ms": 69,
       "registration": false
     },
     "fed": {
@@ -48,7 +48,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 228,
+      "ms": 131,
       "registration": false
     },
     "census": {
@@ -58,27 +58,27 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 269,
+      "ms": 104,
       "registration": false
     },
     "fiscal": {
       "ok": true,
       "sample": {
         "label": "총부채",
-        "date": "2026-11-09",
-        "value": 40559796589243.37
+        "date": "2026-11-10",
+        "value": 40584130080272.89
       },
-      "ms": 523,
+      "ms": 911,
       "registration": false
     },
     "eia": {
       "ok": true,
       "sample": {
         "label": "헨리허브 가스",
-        "date": "2026-11-03",
-        "value": 2.63
+        "date": "2026-11-11",
+        "value": 3
       },
-      "ms": 228,
+      "ms": 209,
       "registration": false
     },
     "nber": {
@@ -88,7 +88,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 613,
+      "ms": 306,
       "registration": false
     }
   }
