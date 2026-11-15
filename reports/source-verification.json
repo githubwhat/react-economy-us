@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-14T22:20:30.635Z",
+  "checkedAt": "2026-11-15T22:50:07.541Z",
   "results": {
     "treasury": {
       "ok": true,
@@ -8,7 +8,7 @@
         "date": "2026-11-13",
         "value": 5.15
       },
-      "ms": 362,
+      "ms": 927,
       "registration": false
     },
     "nyfed": {
@@ -18,7 +18,7 @@
         "date": "2026-11-12",
         "value": 3.9
       },
-      "ms": 275,
+      "ms": 303,
       "registration": false
     },
     "bls": {
@@ -28,18 +28,13 @@
         "date": "2026-10-01",
         "value": 4.1
       },
-      "ms": 352,
+      "ms": 472,
       "registration": false
     },
     "dol": {
-      "ok": true,
-      "sample": {
-        "label": "신규 실업수당 청구",
-        "date": "2026-10-17",
-        "value": 195000
-      },
-      "ms": 330,
-      "registration": false
+      "ok": false,
+      "error": "Cannot read properties of undefined (reading '0')",
+      "ms": 240
     },
     "fed": {
       "ok": true,
@@ -48,7 +43,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 238,
+      "ms": 282,
       "registration": false
     },
     "census": {
@@ -58,18 +53,13 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 125,
+      "ms": 149,
       "registration": false
     },
     "fiscal": {
-      "ok": true,
-      "sample": {
-        "label": "총부채",
-        "date": "2026-11-12",
-        "value": 40608506856903.25
-      },
-      "ms": 296,
-      "registration": false
+      "ok": false,
+      "error": "HTTP 503 https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny?sort=-record_date&page%5Bsize%5D=1",
+      "ms": 187171
     },
     "eia": {
       "ok": true,
@@ -78,7 +68,7 @@
         "date": "2026-11-11",
         "value": 3
       },
-      "ms": 181,
+      "ms": 226,
       "registration": false
     },
     "nber": {
@@ -88,7 +78,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 724,
+      "ms": 331,
       "registration": false
     }
   }
