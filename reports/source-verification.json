@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-11-19T00:19:42.963Z",
+  "checkedAt": "2026-11-20T00:35:38.750Z",
   "results": {
     "treasury": {
       "ok": true,
       "sample": {
         "label": "10년 금리",
-        "date": "2026-11-18",
-        "value": 5.07
+        "date": "2026-11-19",
+        "value": 5.04
       },
-      "ms": 578,
+      "ms": 571,
       "registration": false
     },
     "nyfed": {
       "ok": true,
       "sample": {
         "label": "SOFR",
-        "date": "2026-11-17",
-        "value": 3.92
+        "date": "2026-11-18",
+        "value": 3.9
       },
-      "ms": 326,
+      "ms": 197,
       "registration": false
     },
     "bls": {
@@ -28,17 +28,17 @@
         "date": "2026-10-01",
         "value": 4.1
       },
-      "ms": 252,
+      "ms": 508,
       "registration": false
     },
     "dol": {
       "ok": true,
       "sample": {
         "label": "신규 실업수당 청구",
-        "date": "2026-10-17",
+        "date": "2026-10-24",
         "value": 195000
       },
-      "ms": 239,
+      "ms": 293,
       "registration": false
     },
     "fed": {
@@ -48,7 +48,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 243,
+      "ms": 326,
       "registration": false
     },
     "census": {
@@ -58,17 +58,17 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 271,
+      "ms": 77,
       "registration": false
     },
     "fiscal": {
       "ok": true,
       "sample": {
         "label": "총부채",
-        "date": "2026-11-17",
-        "value": 40714946316573.34
+        "date": "2026-11-18",
+        "value": 40690769638849.95
       },
-      "ms": 308,
+      "ms": 339,
       "registration": false
     },
     "eia": {
@@ -78,7 +78,7 @@
         "date": "2026-11-17",
         "value": 3.1
       },
-      "ms": 218,
+      "ms": 296,
       "registration": false
     },
     "nber": {
@@ -88,7 +88,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 565,
+      "ms": 691,
       "registration": false
     }
   }
