@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-11-22T23:35:39.801Z",
+  "checkedAt": "2026-11-24T03:56:57.968Z",
   "results": {
     "treasury": {
       "ok": true,
       "sample": {
         "label": "10년 금리",
-        "date": "2026-11-20",
+        "date": "2026-11-23",
         "value": 4.92
       },
-      "ms": 523,
+      "ms": 290,
       "registration": false
     },
     "nyfed": {
       "ok": true,
       "sample": {
         "label": "SOFR",
-        "date": "2026-11-19",
-        "value": 3.91
+        "date": "2026-11-20",
+        "value": 3.92
       },
-      "ms": 512,
+      "ms": 241,
       "registration": false
     },
     "bls": {
@@ -28,7 +28,7 @@
         "date": "2026-10-01",
         "value": 4.1
       },
-      "ms": 128,
+      "ms": 150,
       "registration": false
     },
     "dol": {
@@ -38,7 +38,7 @@
         "date": "2026-10-24",
         "value": 195000
       },
-      "ms": 176,
+      "ms": 61,
       "registration": false
     },
     "fed": {
@@ -48,7 +48,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 192,
+      "ms": 158,
       "registration": false
     },
     "census": {
@@ -58,17 +58,17 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 109,
+      "ms": 56,
       "registration": false
     },
     "fiscal": {
       "ok": true,
       "sample": {
         "label": "총부채",
-        "date": "2026-11-19",
-        "value": 40709780700317.02
+        "date": "2026-11-20",
+        "value": 40710417158680.15
       },
-      "ms": 308,
+      "ms": 250,
       "registration": false
     },
     "eia": {
@@ -78,7 +78,7 @@
         "date": "2026-11-17",
         "value": 3.1
       },
-      "ms": 184,
+      "ms": 61,
       "registration": false
     },
     "nber": {
@@ -88,7 +88,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 36476,
+      "ms": 412,
       "registration": false
     }
   }
