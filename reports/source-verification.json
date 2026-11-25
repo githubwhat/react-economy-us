@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-11-24T03:56:57.968Z",
+  "checkedAt": "2026-11-25T02:22:37.083Z",
   "results": {
     "treasury": {
       "ok": true,
       "sample": {
         "label": "10년 금리",
-        "date": "2026-11-23",
-        "value": 4.92
+        "date": "2026-11-24",
+        "value": 4.91
       },
-      "ms": 290,
+      "ms": 395,
       "registration": false
     },
     "nyfed": {
       "ok": true,
       "sample": {
         "label": "SOFR",
-        "date": "2026-11-20",
+        "date": "2026-11-23",
         "value": 3.92
       },
-      "ms": 241,
+      "ms": 257,
       "registration": false
     },
     "bls": {
@@ -28,18 +28,13 @@
         "date": "2026-10-01",
         "value": 4.1
       },
-      "ms": 150,
+      "ms": 311,
       "registration": false
     },
     "dol": {
-      "ok": true,
-      "sample": {
-        "label": "신규 실업수당 청구",
-        "date": "2026-10-24",
-        "value": 195000
-      },
-      "ms": 61,
-      "registration": false
+      "ok": false,
+      "error": "Cannot read properties of undefined (reading '0')",
+      "ms": 213
     },
     "fed": {
       "ok": true,
@@ -48,7 +43,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 158,
+      "ms": 241,
       "registration": false
     },
     "census": {
@@ -58,17 +53,17 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 56,
+      "ms": 141,
       "registration": false
     },
     "fiscal": {
       "ok": true,
       "sample": {
         "label": "총부채",
-        "date": "2026-11-20",
-        "value": 40710417158680.15
+        "date": "2026-11-23",
+        "value": 40727354329919.53
       },
-      "ms": 250,
+      "ms": 461,
       "registration": false
     },
     "eia": {
@@ -78,7 +73,7 @@
         "date": "2026-11-17",
         "value": 3.1
       },
-      "ms": 61,
+      "ms": 421,
       "registration": false
     },
     "nber": {
@@ -88,7 +83,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 412,
+      "ms": 505,
       "registration": false
     }
   }
