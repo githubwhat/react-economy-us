@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-11-25T04:18:09.154Z",
+  "checkedAt": "2026-11-26T01:45:49.887Z",
   "results": {
     "treasury": {
       "ok": true,
       "sample": {
         "label": "10년 금리",
-        "date": "2026-11-24",
-        "value": 4.91
+        "date": "2026-11-25",
+        "value": 4.85
       },
-      "ms": 493,
+      "ms": 414,
       "registration": false
     },
     "nyfed": {
       "ok": true,
       "sample": {
         "label": "SOFR",
-        "date": "2026-11-23",
-        "value": 3.92
+        "date": "2026-11-24",
+        "value": 3.94
       },
-      "ms": 340,
+      "ms": 235,
       "registration": false
     },
     "bls": {
@@ -28,13 +28,18 @@
         "date": "2026-10-01",
         "value": 4.1
       },
-      "ms": 308,
+      "ms": 376,
       "registration": false
     },
     "dol": {
-      "ok": false,
-      "error": "Cannot read properties of undefined (reading '0')",
-      "ms": 314
+      "ok": true,
+      "sample": {
+        "label": "신규 실업수당 청구",
+        "date": "2026-10-24",
+        "value": 195000
+      },
+      "ms": 302,
+      "registration": false
     },
     "fed": {
       "ok": true,
@@ -43,7 +48,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 254,
+      "ms": 209,
       "registration": false
     },
     "census": {
@@ -53,27 +58,27 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 146,
+      "ms": 144,
       "registration": false
     },
     "fiscal": {
       "ok": true,
       "sample": {
         "label": "총부채",
-        "date": "2026-11-23",
-        "value": 40727354329919.53
+        "date": "2026-11-24",
+        "value": 40793305704796.7
       },
-      "ms": 545,
+      "ms": 445,
       "registration": false
     },
     "eia": {
       "ok": true,
       "sample": {
         "label": "헨리허브 가스",
-        "date": "2026-11-17",
-        "value": 3.1
+        "date": "2026-11-24",
+        "value": 3.3
       },
-      "ms": 262,
+      "ms": 285,
       "registration": false
     },
     "nber": {
@@ -83,7 +88,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 536,
+      "ms": 488,
       "registration": false
     }
   }
