@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-11-26T01:45:49.887Z",
+  "checkedAt": "2026-11-27T01:43:17.301Z",
   "results": {
     "treasury": {
       "ok": true,
@@ -8,7 +8,7 @@
         "date": "2026-11-25",
         "value": 4.85
       },
-      "ms": 414,
+      "ms": 495,
       "registration": false
     },
     "nyfed": {
@@ -18,7 +18,7 @@
         "date": "2026-11-24",
         "value": 3.94
       },
-      "ms": 235,
+      "ms": 148,
       "registration": false
     },
     "bls": {
@@ -28,17 +28,17 @@
         "date": "2026-10-01",
         "value": 4.1
       },
-      "ms": 376,
+      "ms": 262,
       "registration": false
     },
     "dol": {
       "ok": true,
       "sample": {
         "label": "신규 실업수당 청구",
-        "date": "2026-10-24",
-        "value": 195000
+        "date": "2026-10-31",
+        "value": 191000
       },
-      "ms": 302,
+      "ms": 280,
       "registration": false
     },
     "fed": {
@@ -48,7 +48,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 209,
+      "ms": 242,
       "registration": false
     },
     "census": {
@@ -58,18 +58,13 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 144,
+      "ms": 139,
       "registration": false
     },
     "fiscal": {
-      "ok": true,
-      "sample": {
-        "label": "총부채",
-        "date": "2026-11-24",
-        "value": 40793305704796.7
-      },
-      "ms": 445,
-      "registration": false
+      "ok": false,
+      "error": "HTTP 504 https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny?sort=-record_date&page%5Bsize%5D=1",
+      "ms": 51304
     },
     "eia": {
       "ok": true,
@@ -78,7 +73,7 @@
         "date": "2026-11-24",
         "value": 3.3
       },
-      "ms": 285,
+      "ms": 310,
       "registration": false
     },
     "nber": {
@@ -88,7 +83,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 488,
+      "ms": 612,
       "registration": false
     }
   }
