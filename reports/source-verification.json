@@ -1,24 +1,24 @@
 {
-  "checkedAt": "2026-11-27T03:40:41.440Z",
+  "checkedAt": "2026-11-28T01:25:53.006Z",
   "results": {
     "treasury": {
       "ok": true,
       "sample": {
         "label": "10년 금리",
-        "date": "2026-11-25",
-        "value": 4.85
+        "date": "2026-11-27",
+        "value": 4.94
       },
-      "ms": 656,
+      "ms": 251,
       "registration": false
     },
     "nyfed": {
       "ok": true,
       "sample": {
         "label": "SOFR",
-        "date": "2026-11-24",
-        "value": 3.94
+        "date": "2026-11-25",
+        "value": 3.95
       },
-      "ms": 209,
+      "ms": 182,
       "registration": false
     },
     "bls": {
@@ -28,7 +28,7 @@
         "date": "2026-10-01",
         "value": 4.1
       },
-      "ms": 79,
+      "ms": 479,
       "registration": false
     },
     "dol": {
@@ -38,7 +38,7 @@
         "date": "2026-10-31",
         "value": 191000
       },
-      "ms": 103,
+      "ms": 55,
       "registration": false
     },
     "fed": {
@@ -48,7 +48,7 @@
         "date": "2026-10-01",
         "value": 1.7
       },
-      "ms": 161,
+      "ms": 146,
       "registration": false
     },
     "census": {
@@ -58,13 +58,18 @@
         "date": "2026-09-01",
         "value": -105047
       },
-      "ms": 46,
+      "ms": 110,
       "registration": false
     },
     "fiscal": {
-      "ok": false,
-      "error": "HTTP 504 https://api.fiscaldata.treasury.gov/services/api/fiscal_service/v2/accounting/od/debt_to_penny?sort=-record_date&page%5Bsize%5D=1",
-      "ms": 51117
+      "ok": true,
+      "sample": {
+        "label": "총부채",
+        "date": "2026-11-25",
+        "value": 40770711005867.6
+      },
+      "ms": 560,
+      "registration": false
     },
     "eia": {
       "ok": true,
@@ -73,7 +78,7 @@
         "date": "2026-11-24",
         "value": 3.3
       },
-      "ms": 200,
+      "ms": 138,
       "registration": false
     },
     "nber": {
@@ -83,7 +88,7 @@
         "date": "2026-11-01",
         "value": 0
       },
-      "ms": 436,
+      "ms": 317,
       "registration": false
     }
   }
